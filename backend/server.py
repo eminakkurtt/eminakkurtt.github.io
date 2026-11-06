@@ -76,7 +76,7 @@ async def chat_endpoint(payload: ChatRequest, request: Request):
             from google import genai
             client = genai.Client(api_key=gemini_key)
             prompt = (
-                f"Sen Muhammet Emin Akkurt'un (Cloud, DevOps & Systems Engineer) portfolyo sitesindeki akıllı asistansın. "
+                f"Sen Muhammet Emin Akkurt'un (Cloud, DevOps & Systems Engineer) portfolyo sitesindeki akıllı asistanı 'Akkurt Copilot'sun. "
                 f"Emin hakkında bilgiler:\n{tool_get_profile()}\n\n"
                 f"Ziyaretçinin mesajı: {payload.message}\n"
                 f"Lütfen profesyonel, samimi ve teknik yetenekleri öne çıkaran bir dille yanıt ver."
@@ -161,8 +161,8 @@ async def chat_endpoint(payload: ChatRequest, request: Request):
 
         else:
             bot_reply = (
-                "Merhaba! Ben Muhammet Emin Akkurt'un yapay zeka asistanıyım. 🚀 "
-                "Emin'in Cloud/DevOps tecrübelerini, stajlarını (Vanora Ventures vb.), yeteneklerini ve eğitimini sorabilir "
+                "Merhaba! Ben Muhammet Emin'in Cloud & DevOps odaklı yapay zeka asistanı **Akkurt Copilot**. ⚡ "
+                "Emin'in bulut/altyapı tecrübelerini, stajlarını (Vanora Ventures vb.), yeteneklerini ve eğitimini sorabilir "
                 "veya ona iletmek üzere bir mesaj bırakabilirsiniz. Size nasıl yardımcı olabilirim?"
             )
 
