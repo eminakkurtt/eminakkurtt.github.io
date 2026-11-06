@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1322"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Arka Plan Kartı -->
+  <rect width="64" height="64" rx="18" fill="url(#bgGrad)"/>
+  
+  <!-- Parlayan Kenarlık -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="16.5" fill="none" stroke="url(#borderGrad)" stroke-width="2.5" stroke-opacity="0.85"/>
+  
+  <!-- İç İnce Işık -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.08"/>
+  
+  <!-- EA Monogram Harfleri -->
+  <text x="32" y="42" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="27" font-weight="800" fill="url(#textGrad)" text-anchor="middle" letter-spacing="-1.5">EA</text>
+  
+  <!-- Sağ Üst Parlama / Yıldız Noktası -->
+  <circle cx="48" cy="16" r="2.5" fill="#10b981"/>
+</svg>

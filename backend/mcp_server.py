@@ -23,6 +23,7 @@ EMIN_PROFILE = {
     "bio": "Modern web teknolojileri, yapay zeka, sistem mimarileri ve bulut altyapıları ile ilgilenen yazılım geliştirici.",
     "website": "https://eminakkurt.com",
     "github": "https://github.com/eminakkurtt",
+    "linkedin": "https://www.linkedin.com/in/muhammeteminakkurt",
     "email": "iletisim@eminakkurt.com",
     "skills": [
         "Python", "JavaScript / TypeScript", "Docker", "Kubernetes",
